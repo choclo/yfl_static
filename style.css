@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Open Sans', Arial, Verdana, sans-serif!important;
+	background-color:#F6F6F6;
+}
+
+a {
+	color:#0087EF;
+}
+
+header {
+	width:100%;
+	margin-top:0px!important;
+	padding:21px 0;
+	position:fixed;
+	z-index:9999;
+	background-color:rgba(255, 255, 255, 0.96);
+	top:0;
+	-moz-box-shadow:0 0 3px 1px #666;
+	-webkit-box-shadow:0 0 3px 1px #666;
+	box-shadow:0 0 3px 1px #666;
+}
+
+header .nav {
+	margin-top:10px;
+	margin-bottom:0;
+	text-transform: uppercase;
+}
+
+header .nav a {
+	font-size:13px;
+	font-weight:600;
+}
+
+header .btn{
+	margin-top:12px;
+	margin-left:10px;
+	text-transform: capitalize;
+}
+
+.slider-wrapper {
+	max-width:1280px;
+	height:500px;
+    margin: 90px auto 30px auto!important;
+    overflow: hidden;
+    
+}
+
+.nivoSlider img {
+	max-width:1280px;
+	text-align:center;
+	margin:0 auto!important;
+}
+
+.nivo-caption {
+	position:absolute;
+	top:0!important;
+	background:none;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 1;
+	overflow: hidden;
+	display: none;
+	-moz-opacity: 1;
+	filter:alpha(opacity=10);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.hero-unit {
+	height:400px;
+	padding:70px 0 60px 0;
+	color:#FFF;
+	text-shadow:0 0 7px #000;
+	letter-spacing:-1px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+		border-radius: 0px;
+	background:none;
+}
+
+.hero-unit p{
+	font-size:23px!important;
+	line-height:76px;
+	color:#EEE;
+}
+
+section {
+	margin-bottom:80px;
+	line-height:24px;
+}
+
+section h1 {
+	margin-bottom:20px;
+	padding-bottom:20px;
+	color:#0087EF;
+	font-weight:100;
+	text-align:center;
+	border-bottom:1px solid #EEE;
+}
+
+section p.epi {
+	font-size:18px;
+	line-height:28px;
+	color:#999;
+}
+
+section#HowItWorks img {
+	height:120px;
+	width:120px;
+}
+
+.features ul {
+	margin:0;
+}
+
+.features ul li {
+	margin:0;
+	padding-top: 6px;
+	padding-left:24px;
+	font-size: 12px;
+	list-style:none;
+	background-image: url(images/tick.png);
+	background-repeat: no-repeat;
+	background-position: left 7px;
+}
+
+.btn-big {
+  padding: 20px 39px;
+  font-size: 24px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+footer {
+	padding:30px 0;
+	font-size:13px;
+	color:#CCC;
+	background-color:#343434;
+}
+
+footer .container {
+	line-height:23px!important;
+}
+
+footer a {
+	color:#888;
+}
+
+footer a:hover{
+	color:#888;
+}
+
+footer span {
+	text-transform:uppercase;
+}
+
+footer ul{
+	margin-left:0;
+}
+
+footer ul li {
+	padding:4px 0 6px 0;
+	list-style:none;
+}
+
+footer .span12 {
+	margin-top:30px;
+	padding-top:30px;
+	border-top:1px solid #555;
+}
+
+.modal {
+	top:20% !important;
+}
