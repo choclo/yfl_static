@@ -1,3 +1,5 @@
 RewriteEngine on
+Options +FollowSymLinks
+ErrorDocument 404 /404.php
 RewriteCond %{HTTP_HOST} ^yourflightlog.com [NC]
 RewriteRule ^(.*)$ http://www.yourflightlog.com/$1 [L,R=301,NC]
