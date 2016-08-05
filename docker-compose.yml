@@ -8,11 +8,11 @@ services:
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
   web:
-    image: choclo/yflstatic:1.0
+    image: yflstatic:1.0
     container_name: yflweb
     hostname: web
     domainname: yourflightlog.com
     environment:
-      - VIRTUAL_HOST=web.yourflightlog.com
+      - VIRTUAL_HOST=www.yourflightlog.com,yourflightlog.com
     hostname: web
     domainname: yourflightlog.com
