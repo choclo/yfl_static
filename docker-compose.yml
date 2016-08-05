@@ -14,5 +14,3 @@ services:
     domainname: yourflightlog.com
     environment:
       - VIRTUAL_HOST=www.yourflightlog.com,yourflightlog.com
-    hostname: web
-    domainname: yourflightlog.com
